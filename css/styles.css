@@ -1,0 +1,161 @@
+#title {
+  background-color: #ff4c68;
+  padding-top: 100px
+}
+
+h1 {
+  line-height: 1.5;
+  font-family: Montserrat;
+  font-size: 3rem;
+  color: white;
+  margin: 20px 20px 30px 0;
+}
+
+.rotated {
+  transform: rotate(25deg);
+}
+
+.row {
+  margin-top: 50px;
+  margin-left: 0;
+}
+
+.f {
+  width: 70%;
+margin: 0 auto;
+padding: 100px 0;
+
+}
+
+.nav-item {
+  margin: 10px;
+}
+
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+.brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+
+.p {
+  width: 52%;
+  position: absolute;
+  margin:0 auto;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+@media (max-width:998px){
+  #title{
+    text-align: center;
+  }
+  .p{
+    position:static;
+  transform:rotate(0);
+}
+}
+#features {
+  text-align: center;
+position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.fa {
+  color: #ef8172
+}
+
+.fp {
+  color: #8f8f8f;
+  text-align: center;
+  width: 70%;
+  margin: 5px auto;
+}
+
+h3 {
+  font-family: "Montserrat";
+  margin: 20px;
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.timg {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.pimg {
+  width: 15%;
+
+  margin: 20px 20px 50px;
+}
+.col-lg-4{
+
+  padding: 3% 2%;
+}
+.fo{
+background-color:#ff4c68;text-align: center;
+
+}
+.cta-h3{
+font-family:"Montserrat";
+color: white;
+text-align: center;
+font-size: 3.5rem;
+line-height: 1.5;
+padding:50px;
+width: 75%;
+margin:0 auto;
+}
+#footer{
+background-color: #fff;
+text-align: center;
+padding:100px 100px 25px 100px ;
+}
+.faoo{
+  margin:  20px;
+}
+.navbars{
+  position:fixed;
+background-color: #ef8172;
+z-index: 5;
+}
